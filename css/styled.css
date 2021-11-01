@@ -13,7 +13,7 @@
       .district1
       {
           cursor: pointer;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
       }
       .district1 img{
           transition: 0.3s all ;
@@ -21,14 +21,14 @@
       .district1:hover img{
        opacity: 0.7; 
     }
-    .district1 .img-fluid .second
+     .district1 .img-fluid 
       {
-        width:100% ;
-        height: 600%;
+        width:600% ;
+        height: 800%;
         box-sizing: border-box;
         object-fit: cover;
       }
-    
+     
       .district1 .explore-btn
       {
 
@@ -49,3 +49,4 @@ opacity: 1;
        {
          color: black;
        }
+    

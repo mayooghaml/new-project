@@ -101,8 +101,8 @@ opacity: 1;
        }
        .row .district1 .img-fluid
        {
-           width: 200px;
-           height: 200px;
+           width: 150px;
+           height: 150px;
            box-sizing: border-box;
            object-fit: cover;
        }
@@ -144,35 +144,11 @@ opacity: 1;
 {
     background-color:lightcoral;
 }
-/* .text
+.district1 p
 {
-    font-size: 14px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-family: 'Times New Roman', Times, serif;
+  padding: 1px;
+  text-align:justify;
 }
-.moreText
-{
-    display:none;
-}
- .read-more-btn
-{
-    padding: 15px 60px;
-    background-color: chartreuse;
-    color: darkblue;
-    border: none;
-    outline:none;
-    font-size: 10px;
-    cursor: pointer;
-}
-.text.show-more .moreText
-{
-    display: inline;
-}
-.text .show-more .dots
-{
-    display: none;
-}  */
-#more {
-    display: none;
-}
+ 
 
