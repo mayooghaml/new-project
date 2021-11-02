@@ -97,7 +97,7 @@ opacity: 1;
 } 
 .navbar-nav .nav-item .nav-link
        {
-         color:blue;
+         color:lawngreen;
        }
        .row .district1 .img-fluid
        {
@@ -108,7 +108,7 @@ opacity: 1;
        }
        .row .district1 .explore-btn
        {
-           color:yellow
+           color:lawngreen;
        }
        
 
@@ -123,9 +123,22 @@ opacity: 1;
     }
 
 
-#b
+    .destination
 {
     background-color:lightcoral;
+
+}
+.destination h3
+{
+color: crimson;
+}
+.destination h5
+{
+color: crimson;
+}
+.destination p
+{
+color:lawngreen
 }
 .district1 p
 {
