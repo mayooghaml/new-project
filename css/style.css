@@ -56,10 +56,10 @@ color:white;
 
 
  
-hr{
-    width: 60px;
-    height: 12px;
-    background-color:blue;
+.mx-auto hr{
+    width: 80px;
+    height: 22px;
+    color: orangered;
 }
 .district1
 {
@@ -110,7 +110,7 @@ opacity: 1;
        {
            color:yellow
        }
-       .navbar .navbar-toggler .navbar-toggler-icon
+       
 
     #bar
     {
@@ -121,25 +121,8 @@ opacity: 1;
         transition: 0.3s ease;
         color: black;
     }
-    /* #des video
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    
-}
-@media(min-aspect-ratio:16/9)
-{
-    #des video
-    {
-        width: 100%;
-        height:auto;
-    }
-} */
+
+
 #b
 {
     background-color:lightcoral;
@@ -155,5 +138,18 @@ opacity: 1;
  font-weight: 700;
  font-size: 14px;
 }
+.pt{
+   background-color: bisque;
+}
+.pt h3{
+    color: navy;
+}
  
+.pt h5{
+    color:navy
+}
+.pt p{
+    color: navy;
+}
 
+ 
