@@ -146,9 +146,14 @@ opacity: 1;
 }
 .district1 p
 {
+
     font-family: 'Times New Roman', Times, serif;
-  padding: 1px;
+  padding: 0.5px;
   text-align:justify;
+ letter-spacing:normal;
+ position: relative;
+ font-weight: 700;
+ font-size: 14px;
 }
  
 
