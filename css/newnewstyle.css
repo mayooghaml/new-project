@@ -20,7 +20,7 @@ body form{
     justify-content:center;
     align-items:center;
     flex-direction:column;
-     height: "100vh";
+     height: 50vh;
   color: white;
 
 }
@@ -63,4 +63,9 @@ input{
 .navbar-nav .nav-item .nav-link active
 {
     color: white;
+}
+
+#togglePassword
+{
+margin-left:330px;
 }
