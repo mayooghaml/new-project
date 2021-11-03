@@ -54,14 +54,14 @@ box-shadow: 0px 0px 10px  0px;
 }
 .form-container h4{
     color: whitesmoke;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:cursive;
     font-style:oblique;
 
 }
 .form-container .form-label
 {
     color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:cursive;
     font-weight: 900;
     font-style:oblique;
 
@@ -126,14 +126,15 @@ opacity: 1;
        }
        .row .district1 .img-fluid
        {
-           width: 150px;
-           height: 150px;
+           width: 250px;
+           height: 200px;
            box-sizing: border-box;
            object-fit: cover;
        }
        .row .district1 .explore-btn
        {
            color:lawngreen;
+           font-family: cursive;
        }
        
 
@@ -156,19 +157,25 @@ opacity: 1;
 .destination h3
 {
 color: crimson;
+font-family: cursive;
+
 }
 .destination h5
 {
 color: crimson;
+font-family: cursive;
+
 }
 .destination p
 {
-color:lawngreen
+color:lawngreen;
+font-family: cursive;
+
 }
 .district1 p
 {
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
   padding: 0.5px;
   text-align:justify;
  letter-spacing:normal;
@@ -195,6 +202,14 @@ color:lawngreen
     margin-left: 250px;
  
 }
+.form-container a{
+    color:whitesmoke;
+    font-family: cursive;
+}
+button{
+    font-family: cursive;
+}
+
 
 
  
