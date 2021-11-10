@@ -16,44 +16,8 @@ function validate()
     error.style.background="green";
     if(regexa.test(pass_strength.value))
     {
-        var passed = 0;
-        for (var i = 0; i < regexa.length; i++) {
-            if (new RegExp(regex[i]).test(exampleInputPassword1)) {
-                passed++;
-            }
-        }
-        if (passed > 2 && exampleInputPassword1.length > 7) {
-            passed++;
-        }
- 
         
-        var color = "";
-        var strength = "";
-        switch (passed) {
-            case 0:
-            case 1:
-                strength = "Poor";
-                color = "red";
-                break;
-            case 2:
-                strength = "Medium";
-                color = "orange";
-                break;
-            case 3:
-            case 4:
-                strength = "Medium";
-                color = "orange";
-                break;
-            case 5:
-                strength = "Strong";
-                color = "green";
-                break;
-        }
-        error2.innerHTML = strength;
-        error2.style.color = color;
-
     }
-    
    }
 else
    {
