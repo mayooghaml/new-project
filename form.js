@@ -10,7 +10,7 @@ function validate()
  
   if(regexp.test(email.value))
    {
-      error.innerHTML="valid";
+      error.innerHTML="your Email Id is valid";
       error.style.color="black";
       error.style.border="black solid 1px";
       error.style.background="green";
@@ -18,7 +18,7 @@ function validate()
    }
 else
    {
-    error.innerHTML=("please enter a valid email address!!");
+    error.innerHTML=("Please enter a valid email address!!");
     error.style.color="black";
     error.style.border="red solid 1px"
     error.style.background="red"
@@ -33,20 +33,20 @@ function passwordChanged()
         var enoughRegex = new RegExp("(?=.{4,}).*", "g");
       var pwd = document.getElementById("txtPassword");
       if (pwd.value.length == 0) {
-         strength.innerHTML = '<span style="color:white">Type Password</span>';
+         strength.innerHTML = '<span style="color:white"></span>';
          strength.style.background="Black"
      } else if (false == enoughRegex.test(pwd.value)) {
          strength.innerHTML = '<span style="color:white">More Characters</span>';
          strength.style.background="Black"
      } else if (strongRegex.test(pwd.value)) {
-         strength.innerHTML = '<span style="color:green">Strong!</span>';
-         strength.style.background="Black"
+         strength.innerHTML = '<span style="color:green">Strong Password!!</span>';
+         strength.style.background="black"
          temps=1;
      } else if (mediumRegex.test(pwd.value)) {
-         strength.innerHTML = '<span style="color:orange">Medium!</span>';
+         strength.innerHTML = '<span style="color:orange">Medium Password!!</span>';
          strength.style.background="Black"
      } else {
-         strength.innerHTML = '<span style="color:red">Weak!</span>';
+         strength.innerHTML = '<span style="color:red">Weak Password!</span>';
          strength.style.background="Black"
      }
    
