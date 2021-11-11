@@ -47,7 +47,7 @@
     <section class="container-fluid">
         <section class="row">
             <section class="col-12 col-sm-6 col-md-3">
-                <form class="form-container" action="#" onsubmit="return validate()">
+                <form class="form-container" action="destination.html" >
                     <h4 class="text-center ">LOGIN HERE!!</h4>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -58,11 +58,11 @@
                     <div class="mb-3">
                       <label for="exampleInputPassword1"class="form-label" >Password</label>
                     
-                     <input type="password" class="form-control" id="exampleInputPassword1"name="password">
-                     <label for="error" id="error2"></label>
+                     <!--<input type="password" class="form-control" id="exampleInputPassword1"name="password"> -->
+                     <!-- <label for="error" id="error2"></label> -->
 
-                     <!-- <input type="text" id="txtPassword" onkeyup="CheckPasswordStrength(this.value)" /> -->
-                     <!-- <span id="password_strength"></span> -->
+                     <input type="password" class="form-control"  id="txtPassword" onkeyup="return passwordChanged();" /> 
+                     <span id="strength">Enter Password</span> 
                      
                       <br>
                      
@@ -73,7 +73,7 @@
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-block" id="submit" onclick="return check()">Submit</button>
                    
                     <a href="#">forgot password?</a>
                     <br> 
