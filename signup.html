@@ -45,16 +45,18 @@
   <!-- <section id="sign"> -->'
  
     
-      <form class="signupp" action="destination.html" >
+      <form class="signupp" action="#" >
          <h1>SIGNUP</h1> 
          <input type="text" name="" placeholder="FIRST NAME">
          <input type="text" name="" placeholder="LAST NAME">
-         <input type="text" name="" placeholder="PHONENUMBER">
-        <input type="email" name="" placeholder="USERNAME" >
-        <input type="password"  placeholder="PASSWORD" id="exampleInputPassword"name="password" >
+         <input type="tel" name="" placeholder="PHONENUMBER" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}.[0-9]{3}.[0-9]{4}|[0-9]{3} [0-9]{3} [0-9]{4}">
+        <input type="text"   id="exampleInputEmail1" name="exampleInputEmail1" placeholder="USERNAME" >
+        <label for="error" id="error"></label>
+        <input type="password"  placeholder="PASSWORD" name="password"  id="txtPassword" onkeyup="return passwordChanged();" >
+        <span id="strength"></span> 
         <!-- <input type="password" name="input" placeholder="CONFIRM PASSWORD"  > -->
-        <i class="far fa-eye" id="togglePassword" style="margin-top: -50px;  cursor: pointer;"></i>
-        <button type="submit">
+        <!-- <i class="far fa-eye" id="togglePassword" style="margin-top: -50px;  cursor: pointer;"></i> -->
+        <button type="submit"  onclick="return threecheck()">
            SIGNUP
         </button>
         
@@ -80,6 +82,7 @@
     
 });
   </script>
+    <script src="form.js"></script>
 
 </body>
 </html>

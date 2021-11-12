@@ -3,6 +3,7 @@ let error = document.getElementById("error");
 let temp=0;
 let temps=0;
 
+
 function validate()
 {
   let regexp = /^([A-Za-z0-9\.-]+)@([A-Za-z0-9-]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/;
@@ -62,3 +63,17 @@ function check()
       return false;
    }
 }
+
+function threecheck()
+{
+   validate();
+   
+   if (temp==1 && temps==1)
+   {
+      return true;
+   }
+   else{
+      return false;
+   }
+}
+
