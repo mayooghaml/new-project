@@ -216,7 +216,6 @@ button{
 {
 
 
- 
         z-index: 2;
         display:flex;
         justify-content:center;
@@ -250,8 +249,8 @@ button{
     height: 40px;
     font-size: 20px;
     background-color:blue;
-    border:none;
-    color:white;
+    border:;
+    color:white; 
      margin-top:30px; 
 }
 .signupp  h1{
