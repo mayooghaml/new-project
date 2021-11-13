@@ -41,28 +41,28 @@ function passwordChanged()
       if (pwd.value.length == 0) {
          strength.innerHTML = '<span style="color:white">Please Enter password</span>';
          
-         strength.style.fontSize="15px";
+         strength.style.fontSize="13px";
          strength.style.padding="5px";
      } else if (false == enoughRegex.test(pwd.value)) {
          strength.innerHTML = '<span style="color:white">8Characters needed</span>';
          
-         strength.style.fontSize="15px";
+         strength.style.fontSize="13px";
          strength.style.padding="5px";
      } else if (strongRegex.test(pwd.value)) {
          strength.innerHTML = '<span style="color:green">Strong Password!!</span>';
          
-         strength.style.fontSize="15px";
+         strength.style.fontSize="13px";
          strength.style.padding="5px";
          temps=1;
      } else if (mediumRegex.test(pwd.value)) {
          strength.innerHTML = '<span style="color:orange">Medium Password!!</span>';
          
-         strength.style.fontSize="15px";
+         strength.style.fontSize="13px";
          strength.style.padding="5px";
      } else {
          strength.innerHTML = '<span style="color:red">Weak Password!</span>';
          
-         strength.style.fontSize="15px";
+         strength.style.fontSize="13px";
          strength.style.padding="2px";
      }
    
