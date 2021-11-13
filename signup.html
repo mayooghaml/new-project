@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
-<body  background="../lmages/sunset.jpg"  >
-  <body>
+ <body   background="../lmages/sunset.jpg" width="100%">
+
 
   <header>
   
@@ -43,25 +43,35 @@
     </header>
     
   <!-- <section id="sign"> -->'
- 
-    
+<!--  
+    <div class="sign-up-form"> -->
+    <div class="form">
       <form class="signupp" action="login.html" >
+  
          <h1>SIGNUP</h1> 
          <input type="text" name="" placeholder="FIRST NAME"  required>
+        
          <input type="text" name="" placeholder="LAST NAME"  required>
-         <input type="tel" name="" placeholder="PHONENUMBER" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}.[0-9]{3}.[0-9]{4}|[0-9]{3} [0-9]{3} [0-9]{4}" required>
-        <input type="text"   id="exampleInputEmail1" name="exampleInputEmail1" placeholder="USERNAME" >
-        <label for="error" id="error"></label>
+         <input type="tel" name="" placeholder="PHONENUMBER" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}.[0-9]{3}.[0-9]{4}|[0-9]{3} [0-9]{3} [0-9]{4} |[0-9]{3}[0-9]{3}[0-9]{4}" required>
+        <input type="text"   id="exampleInputEmail1" name="exampleInputEmail1" placeholder="USERNAME">
+        <span for="error" id="error"></span>
         <input type="password"  placeholder="PASSWORD" name="password"  id="txtPassword" onkeyup="return passwordChanged();" >
-        <span id="strength"></span> 
-        <!-- <input type="password" name="input" placeholder="CONFIRM PASSWORD"  > -->
-        <!-- <i class="far fa-eye" id="togglePassword" style="margin-top: -50px;  cursor: pointer;"></i> -->
-        <button type="submit"  onclick="return threecheck()">
+        <span id="strength"></span>
+        
+         <input type="password" name="input" id="cnfrmpswd" placeholder="CONFIRM PASSWORD" onkeyup='cnfrmpass();' > 
+         <span id="message"></span>
+         <br>
+          <div class="mb-3">
+          <label class="field__toggle1" for="showpassword1" >show password</label>
+          <input type="checkbox" class="field__toggle-input1" id="exampleCheck1" onclick="myFunction()">
+        </div>
+
+        <button type="submit" id="btn"  onclick="return threecheck()">
            SIGNUP
         </button>
         
     </form>
- 
+  </div>
 
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -70,17 +80,27 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 <script>
-  const togglePassword = document.querySelector('#togglePassword');
-  const password = document.querySelector('#exampleInputPassword');
  
-  togglePassword.addEventListener('click', function (e) {
-    // toggle the type attribute
-    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-    this.classList.toggle('fa-eye-slash');
-    password.setAttribute('type', type);
-    // toggle the eye slash icon
     
-});
+//  var pwd = document.getElementById("txtPassword");
+// txtPassword.value;
+// var toggle = document.querySelector( "#show-password" );
+// toggle.addEventListener( "click", handleToggleClick, false );
+// function handleToggleClick( event ) {
+ 
+//    if ( this.checked ) {
+
+//       console.warn( "Change input 'type' to: text" );
+//       txtPassword.type = "text";
+
+//    } else {
+
+//       console.warn( "Change input 'type' to: password" );
+//       txtPassword.type = "password";
+
+//    }
+
+
   </script>
     <script src="form.js"></script>
 

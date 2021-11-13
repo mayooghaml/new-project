@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing:content-box; 
+}
+.navbar-brand img
+{
+width:100px ;
+padding: 5px;
+
+}
+.navbar
+{
+    font-size: 16px;
+    
+}
+.navbar-light .navbar-nav .nav-link
+{
+    padding: 3 20px;
+    color: crimson;
+    transition: 0.3s ease;
+}
+.navbar-brand img
+{
+width:100px ;
+padding: 5px;
+}
+.navbar-nav .nav-item .nav-link
+       {
+         color:lawngreen;
+       }
+body
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form
+{
+    margin-top: 50px;
+}
+input
+{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+button{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    border: none;
+    color: white;
+    background-color: blue;
+}
