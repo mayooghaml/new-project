@@ -2,7 +2,7 @@ let email = document.getElementById("exampleInputEmail1");
 let error = document.getElementById("error");
 let temp=0;
 let temps=0;
-
+let tempss=0;
 
 function validate()
 {
@@ -70,7 +70,7 @@ function passwordChanged()
 function check()
 {
    validate();
-   if (temp==1 && temps==1)
+   if (temp==1 && temps==1 )
    {
       return true;
    }
@@ -83,7 +83,7 @@ function threecheck()
 {
    validate();
    
-   if (temp==1 && temps==1)
+   if (temp==1 && temps==1 && tempss==1)
    {
       return true;
    }
@@ -106,7 +106,7 @@ function cnfrmpass()
    if (document.getElementById('txtPassword').value ==
     document.getElementById('cnfrmpswd').value) {
     document.getElementById('message').style.color = 'green';
-   
+    tempss=1
     document.getElementById('message').innerHTML = 'matching';
   } else {
     document.getElementById('message').style.color = 'red';
