@@ -46,13 +46,13 @@
 <!--  
     <div class="sign-up-form"> -->
     <div class="form">
-      <form class="signupp" action="login.html" >
+      <form class="signupp" action="http://localhost:5555/signup" method="post" >
   
          <h1>SIGNUP</h1> 
-         <input type="text" name="" placeholder="FIRST NAME"  required>
+         <input type="text" name="first" placeholder="FIRST NAME"  required>
         
-         <input type="text" name="" placeholder="LAST NAME"  required>
-         <input type="tel" name="" placeholder="PHONENUMBER" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}.[0-9]{3}.[0-9]{4}|[0-9]{3} [0-9]{3} [0-9]{4} |[0-9]{3}[0-9]{3}[0-9]{4}" required>
+         <input type="text" name="last" placeholder="LAST NAME"  required>
+         <input type="tel" name="phone" placeholder="PHONENUMBER" name="" id="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}.[0-9]{3}.[0-9]{4}|[0-9]{3} [0-9]{3} [0-9]{4} |[0-9]{3}[0-9]{3}[0-9]{4}" required>
         <input type="text"   id="exampleInputEmail1" name="exampleInputEmail1" placeholder="USERNAME">
         <span for="error" id="error"></span>
         <input type="password"  placeholder="PASSWORD" name="password"  id="txtPassword" onkeyup="return passwordChanged();" >
